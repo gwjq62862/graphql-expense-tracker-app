@@ -27,4 +27,24 @@ It allows users to manage their transactions, visualize spending habits using a 
 ---
 
 ## 📂 Folder Structure
+├── backend/ # Server-side code
+│ ├── db/ # Database connection
+│ ├── models/ # Mongoose models
+│ ├── resolvers/ # GraphQL resolvers
+│ ├── typeDefs/ # GraphQL schema
+│ ├── index.js # Main server file
+│ └── package.json
+│
+├── frontend/ # Client-side code
+│ ├── src/
+│ │ ├── components/ # React components
+│ │ ├── pages/ # Page components
+│ │ ├── graphql/ # Queries & Mutations
+│ │ ├── App.jsx
+│ │ └── main.jsx
+│ └── package.json
+│
+└── README.md
+
+
 
